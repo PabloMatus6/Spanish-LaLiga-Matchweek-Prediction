@@ -1,0 +1,1436 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20212.21.0605.1023                               -->
+<workbook source-build='2021.2.0 (20212.21.0605.1023)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Sheet1 (LogisticRegression_prediction)' inline='true' name='federated.08ua7fi1tpyzh4185rft31at5l28' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='LogisticRegression_prediction' name='excel-direct.1c712590n4e45f1f849n40yp70sa'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='Data/Tableau front-end/LogisticRegression_prediction.xls' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1c712590n4e45f1f849n40yp70sa' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:W468:no:A1:W468:0' header='yes' outcome='6'>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='integer' name='pred' ordinal='1' />
+            <column datatype='integer' name='test' ordinal='2' />
+            <column datatype='integer' name='success' ordinal='3' />
+            <column datatype='integer' name='year' ordinal='4' />
+            <column datatype='integer' name='round' ordinal='5' />
+            <column datatype='integer' name='division' ordinal='6' />
+            <column datatype='integer' name='points_local' ordinal='7' />
+            <column datatype='integer' name='wins_local' ordinal='8' />
+            <column datatype='integer' name='draws_local' ordinal='9' />
+            <column datatype='integer' name='losses_local' ordinal='10' />
+            <column datatype='integer' name='gf_local' ordinal='11' />
+            <column datatype='integer' name='ga_local' ordinal='12' />
+            <column datatype='integer' name='avg_local' ordinal='13' />
+            <column datatype='integer' name='pos_local' ordinal='14' />
+            <column datatype='integer' name='points_visitor' ordinal='15' />
+            <column datatype='integer' name='wins_visitor' ordinal='16' />
+            <column datatype='integer' name='draws_visitor' ordinal='17' />
+            <column datatype='integer' name='losses_visitor' ordinal='18' />
+            <column datatype='integer' name='gf_visitor' ordinal='19' />
+            <column datatype='integer' name='ga_visitor' ordinal='20' />
+            <column datatype='integer' name='avg_visitor' ordinal='21' />
+            <column datatype='integer' name='pos_visitor' ordinal='22' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1c712590n4e45f1f849n40yp70sa' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:W468:no:A1:W468:0' header='yes' outcome='6'>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='integer' name='pred' ordinal='1' />
+            <column datatype='integer' name='test' ordinal='2' />
+            <column datatype='integer' name='success' ordinal='3' />
+            <column datatype='integer' name='year' ordinal='4' />
+            <column datatype='integer' name='round' ordinal='5' />
+            <column datatype='integer' name='division' ordinal='6' />
+            <column datatype='integer' name='points_local' ordinal='7' />
+            <column datatype='integer' name='wins_local' ordinal='8' />
+            <column datatype='integer' name='draws_local' ordinal='9' />
+            <column datatype='integer' name='losses_local' ordinal='10' />
+            <column datatype='integer' name='gf_local' ordinal='11' />
+            <column datatype='integer' name='ga_local' ordinal='12' />
+            <column datatype='integer' name='avg_local' ordinal='13' />
+            <column datatype='integer' name='pos_local' ordinal='14' />
+            <column datatype='integer' name='points_visitor' ordinal='15' />
+            <column datatype='integer' name='wins_visitor' ordinal='16' />
+            <column datatype='integer' name='draws_visitor' ordinal='17' />
+            <column datatype='integer' name='losses_visitor' ordinal='18' />
+            <column datatype='integer' name='gf_visitor' ordinal='19' />
+            <column datatype='integer' name='ga_visitor' ordinal='20' />
+            <column datatype='integer' name='avg_visitor' ordinal='21' />
+            <column datatype='integer' name='pos_visitor' ordinal='22' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:W468:no:A1:W468:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_688D1C5F787D41019D60726E7F9D6264]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pred</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[pred]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>pred</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_688D1C5F787D41019D60726E7F9D6264]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>test</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[test]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>test</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_688D1C5F787D41019D60726E7F9D6264]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>success</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[success]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>success</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_688D1C5F787D41019D60726E7F9D6264]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[year]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>year</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_688D1C5F787D41019D60726E7F9D6264]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>round</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[round]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>round</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_688D1C5F787D41019D60726E7F9D6264]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>division</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[division]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>division</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_688D1C5F787D41019D60726E7F9D6264]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>points_local</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[points_local]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>points_local</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_688D1C5F787D41019D60726E7F9D6264]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>wins_local</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[wins_local]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>wins_local</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_688D1C5F787D41019D60726E7F9D6264]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>draws_local</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[draws_local]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>draws_local</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_688D1C5F787D41019D60726E7F9D6264]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>losses_local</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[losses_local]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>losses_local</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_688D1C5F787D41019D60726E7F9D6264]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gf_local</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[gf_local]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>gf_local</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_688D1C5F787D41019D60726E7F9D6264]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ga_local</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ga_local]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>ga_local</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_688D1C5F787D41019D60726E7F9D6264]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>avg_local</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[avg_local]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>avg_local</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_688D1C5F787D41019D60726E7F9D6264]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pos_local</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[pos_local]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>pos_local</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_688D1C5F787D41019D60726E7F9D6264]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>points_visitor</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[points_visitor]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>points_visitor</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_688D1C5F787D41019D60726E7F9D6264]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>wins_visitor</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[wins_visitor]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>wins_visitor</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_688D1C5F787D41019D60726E7F9D6264]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>draws_visitor</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[draws_visitor]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>draws_visitor</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_688D1C5F787D41019D60726E7F9D6264]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>losses_visitor</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[losses_visitor]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>losses_visitor</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_688D1C5F787D41019D60726E7F9D6264]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gf_visitor</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[gf_visitor]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>gf_visitor</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_688D1C5F787D41019D60726E7F9D6264]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ga_visitor</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ga_visitor]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>ga_visitor</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_688D1C5F787D41019D60726E7F9D6264]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>avg_visitor</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[avg_visitor]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>avg_visitor</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_688D1C5F787D41019D60726E7F9D6264]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pos_visitor</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[pos_visitor]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>pos_visitor</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_688D1C5F787D41019D60726E7F9D6264]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_688D1C5F787D41019D60726E7F9D6264]' role='measure' type='quantitative' />
+      <column caption='Avg Local' datatype='integer' name='[avg_local]' role='measure' type='quantitative' />
+      <column caption='Avg Visitor' datatype='integer' name='[avg_visitor]' role='measure' type='quantitative' />
+      <column caption='Division' datatype='integer' name='[division]' role='measure' type='quantitative' />
+      <column caption='Draws Local' datatype='integer' name='[draws_local]' role='measure' type='quantitative' />
+      <column caption='Draws Visitor' datatype='integer' name='[draws_visitor]' role='measure' type='quantitative' />
+      <column caption='Ga Local' datatype='integer' name='[ga_local]' role='measure' type='quantitative' />
+      <column caption='Ga Visitor' datatype='integer' name='[ga_visitor]' role='measure' type='quantitative' />
+      <column caption='Gf Local' datatype='integer' name='[gf_local]' role='measure' type='quantitative' />
+      <column caption='Gf Visitor' datatype='integer' name='[gf_visitor]' role='measure' type='quantitative' />
+      <column caption='Losses Local' datatype='integer' name='[losses_local]' role='measure' type='quantitative' />
+      <column caption='Losses Visitor' datatype='integer' name='[losses_visitor]' role='measure' type='quantitative' />
+      <column caption='Points Local' datatype='integer' name='[points_local]' role='measure' type='quantitative' />
+      <column caption='Points Visitor' datatype='integer' name='[points_visitor]' role='measure' type='quantitative' />
+      <column caption='Pos Local' datatype='integer' name='[pos_local]' role='measure' type='quantitative' />
+      <column caption='Pos Visitor' datatype='integer' name='[pos_visitor]' role='measure' type='quantitative' />
+      <column caption='Pred' datatype='integer' name='[pred]' role='measure' type='quantitative' />
+      <column caption='Round' datatype='integer' name='[round]' role='measure' type='quantitative' />
+      <column caption='Success' datatype='integer' name='[success]' role='measure' type='quantitative' />
+      <column caption='Test' datatype='integer' name='[test]' role='measure' type='quantitative' />
+      <column caption='Wins Local' datatype='integer' name='[wins_local]' role='measure' type='quantitative' />
+      <column caption='Wins Visitor' datatype='integer' name='[wins_visitor]' role='measure' type='quantitative' />
+      <column caption='Year' datatype='integer' name='[year]' role='dimension' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Spain&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_688D1C5F787D41019D60726E7F9D6264'>
+            <properties context=''>
+              <relation connection='excel-direct.1c712590n4e45f1f849n40yp70sa' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:W468:no:A1:W468:0' header='yes' outcome='6'>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='integer' name='pred' ordinal='1' />
+                  <column datatype='integer' name='test' ordinal='2' />
+                  <column datatype='integer' name='success' ordinal='3' />
+                  <column datatype='integer' name='year' ordinal='4' />
+                  <column datatype='integer' name='round' ordinal='5' />
+                  <column datatype='integer' name='division' ordinal='6' />
+                  <column datatype='integer' name='points_local' ordinal='7' />
+                  <column datatype='integer' name='wins_local' ordinal='8' />
+                  <column datatype='integer' name='draws_local' ordinal='9' />
+                  <column datatype='integer' name='losses_local' ordinal='10' />
+                  <column datatype='integer' name='gf_local' ordinal='11' />
+                  <column datatype='integer' name='ga_local' ordinal='12' />
+                  <column datatype='integer' name='avg_local' ordinal='13' />
+                  <column datatype='integer' name='pos_local' ordinal='14' />
+                  <column datatype='integer' name='points_visitor' ordinal='15' />
+                  <column datatype='integer' name='wins_visitor' ordinal='16' />
+                  <column datatype='integer' name='draws_visitor' ordinal='17' />
+                  <column datatype='integer' name='losses_visitor' ordinal='18' />
+                  <column datatype='integer' name='gf_visitor' ordinal='19' />
+                  <column datatype='integer' name='ga_visitor' ordinal='20' />
+                  <column datatype='integer' name='avg_visitor' ordinal='21' />
+                  <column datatype='integer' name='pos_visitor' ordinal='22' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='P &amp; T range1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1'><![CDATA[<Sheet Name> : sample 1 of the index]]></run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (LogisticRegression_prediction)' name='federated.08ua7fi1tpyzh4185rft31at5l28' />
+          </datasources>
+          <datasource-dependencies datasource='federated.08ua7fi1tpyzh4185rft31at5l28'>
+            <column datatype='integer' name='[F1]' role='measure' type='quantitative' />
+            <column caption='Pred' datatype='integer' name='[pred]' role='measure' type='quantitative' />
+            <column caption='Success' datatype='integer' name='[success]' role='measure' type='quantitative' />
+            <column-instance column='[F1]' derivation='Sum' name='[sum:F1:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[pred]' derivation='Sum' name='[sum:pred:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[success]' derivation='Sum' name='[sum:success:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[test]' derivation='Sum' name='[sum:test:qk]' pivot='key' type='quantitative' />
+            <column caption='Test' datatype='integer' name='[test]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='false' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.08ua7fi1tpyzh4185rft31at5l28].[sum:F1:qk]' field-type='quantitative' max='100' min='50' range-type='fixed' scope='cols' type='space' />
+            <format attr='title' class='0' field='[federated.08ua7fi1tpyzh4185rft31at5l28].[sum:test:qk]' scope='rows' value='Final result (Test set)' />
+            <format attr='display' class='0' field='[federated.08ua7fi1tpyzh4185rft31at5l28].[sum:F1:qk]' scope='cols' value='true' />
+            <format attr='title' class='0' field='[federated.08ua7fi1tpyzh4185rft31at5l28].[sum:F1:qk]' scope='cols' value='Index' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.08ua7fi1tpyzh4185rft31at5l28].[sum:success:qk]' num-steps='2' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-diverging'>
+                <color>#eb3312</color>
+                <color>#e94325</color>
+                <color>#e75338</color>
+                <color>#e6634b</color>
+                <color>#e4725e</color>
+                <color>#e28170</color>
+                <color>#e19182</color>
+                <color>#df9f94</color>
+                <color>#ddaea6</color>
+                <color>#dcbcb7</color>
+                <color>#dacbc8</color>
+                <color>#d9d9d9</color>
+                <color>#cfdcc8</color>
+                <color>#c4dfb7</color>
+                <color>#bae3a5</color>
+                <color>#aee692</color>
+                <color>#a3ea7f</color>
+                <color>#97ed6c</color>
+                <color>#8af157</color>
+                <color>#7ef442</color>
+                <color>#70f82d</color>
+                <color>#63fb16</color>
+                <color>#55ff00</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.08ua7fi1tpyzh4185rft31at5l28].[sum:success:qk]' />
+              <lod column='[federated.08ua7fi1tpyzh4185rft31at5l28].[sum:F1:qk]' />
+            </encodings>
+            <dropline drop-when='selected' haslabel='false' x-axis='true' y-axis='true' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='shape' value=':filled/circle' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.08ua7fi1tpyzh4185rft31at5l28].[sum:test:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.08ua7fi1tpyzh4185rft31at5l28].[sum:success:qk]' />
+              <lod column='[federated.08ua7fi1tpyzh4185rft31at5l28].[sum:F1:qk]' />
+            </encodings>
+            <dropline drop-when='selected' haslabel='false' x-axis='true' y-axis='true' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='shape' value=':filled/circle' />
+                <format attr='size' value='2.066298246383667' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.08ua7fi1tpyzh4185rft31at5l28].[sum:pred:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.08ua7fi1tpyzh4185rft31at5l28].[sum:success:qk]' />
+              <lod column='[federated.08ua7fi1tpyzh4185rft31at5l28].[sum:F1:qk]' />
+            </encodings>
+            <dropline drop-when='selected' haslabel='false' x-axis='true' y-axis='true' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='shape' value=':filled/circle' />
+                <format attr='size' value='2.066298246383667' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.08ua7fi1tpyzh4185rft31at5l28].[sum:pred:qk] + [federated.08ua7fi1tpyzh4185rft31at5l28].[sum:test:qk])</rows>
+        <cols>[federated.08ua7fi1tpyzh4185rft31at5l28].[sum:F1:qk]</cols>
+        <annotations>
+          <annotation class='point' id='0' mark-position='1' pullback='0' text-width='180'>
+            <formatted-text>
+              <run bold='true'>The model tends to predict a home win on most occasions.</run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='axis'>
+                <x-coord axis-value='63.621998522655886'>
+                  <node-reference>
+                    <axis>[federated.08ua7fi1tpyzh4185rft31at5l28].[sum:F1:qk]</axis>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='0.034578396950167178'>
+                  <node-reference>
+                    <axis>[federated.08ua7fi1tpyzh4185rft31at5l28].[sum:pred:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </point>
+            <body x='-107' y='-102' />
+          </annotation>
+          <annotation class='point' id='2' mark-position='1' pullback='0' text-width='180'>
+            <formatted-text>
+              <run bold='true'>Consequently, it has a high success rate in home wins.</run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='axis'>
+                <x-coord axis-value='57.079646563978933'>
+                  <node-reference>
+                    <axis>[federated.08ua7fi1tpyzh4185rft31at5l28].[sum:F1:qk]</axis>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='0.051176243599645677'>
+                  <node-reference>
+                    <axis>[federated.08ua7fi1tpyzh4185rft31at5l28].[sum:test:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </point>
+            <body x='-50' y='-84' />
+          </annotation>
+        </annotations>
+      </table>
+      <simple-id uuid='{AA8B3E9B-A6BB-4B92-8916-C19814486588}' />
+    </worksheet>
+    <worksheet name='P &amp; T range2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1'><![CDATA[<Sheet Name>: sample 2 of the index]]></run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (LogisticRegression_prediction)' name='federated.08ua7fi1tpyzh4185rft31at5l28' />
+          </datasources>
+          <datasource-dependencies datasource='federated.08ua7fi1tpyzh4185rft31at5l28'>
+            <column datatype='integer' name='[F1]' role='measure' type='quantitative' />
+            <column caption='Pred' datatype='integer' name='[pred]' role='measure' type='quantitative' />
+            <column caption='Success' datatype='integer' name='[success]' role='measure' type='quantitative' />
+            <column-instance column='[F1]' derivation='Sum' name='[sum:F1:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[pred]' derivation='Sum' name='[sum:pred:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[success]' derivation='Sum' name='[sum:success:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[test]' derivation='Sum' name='[sum:test:qk]' pivot='key' type='quantitative' />
+            <column caption='Test' datatype='integer' name='[test]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='false' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.08ua7fi1tpyzh4185rft31at5l28].[sum:F1:qk]' field-type='quantitative' max='250' min='200' range-type='fixed' scope='cols' type='space' />
+            <format attr='title' class='0' field='[federated.08ua7fi1tpyzh4185rft31at5l28].[sum:test:qk]' scope='rows' value='Final result (Test set)' />
+            <format attr='title' class='0' field='[federated.08ua7fi1tpyzh4185rft31at5l28].[sum:F1:qk]' scope='cols' value='index' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.08ua7fi1tpyzh4185rft31at5l28].[sum:success:qk]' num-steps='2' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-diverging'>
+                <color>#eb3312</color>
+                <color>#e94325</color>
+                <color>#e75338</color>
+                <color>#e6634b</color>
+                <color>#e4725e</color>
+                <color>#e28170</color>
+                <color>#e19182</color>
+                <color>#df9f94</color>
+                <color>#ddaea6</color>
+                <color>#dcbcb7</color>
+                <color>#dacbc8</color>
+                <color>#d9d9d9</color>
+                <color>#cfdcc8</color>
+                <color>#c4dfb7</color>
+                <color>#bae3a5</color>
+                <color>#aee692</color>
+                <color>#a3ea7f</color>
+                <color>#97ed6c</color>
+                <color>#8af157</color>
+                <color>#7ef442</color>
+                <color>#70f82d</color>
+                <color>#63fb16</color>
+                <color>#55ff00</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.08ua7fi1tpyzh4185rft31at5l28].[sum:success:qk]' />
+              <lod column='[federated.08ua7fi1tpyzh4185rft31at5l28].[sum:F1:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='shape' value=':filled/circle' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.08ua7fi1tpyzh4185rft31at5l28].[sum:test:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.08ua7fi1tpyzh4185rft31at5l28].[sum:success:qk]' />
+              <lod column='[federated.08ua7fi1tpyzh4185rft31at5l28].[sum:F1:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='shape' value=':filled/circle' />
+                <format attr='size' value='2.1104972362518311' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.08ua7fi1tpyzh4185rft31at5l28].[sum:pred:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.08ua7fi1tpyzh4185rft31at5l28].[sum:success:qk]' />
+              <lod column='[federated.08ua7fi1tpyzh4185rft31at5l28].[sum:F1:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='shape' value=':filled/circle' />
+                <format attr='size' value='2.1104972362518311' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.08ua7fi1tpyzh4185rft31at5l28].[sum:pred:qk] + [federated.08ua7fi1tpyzh4185rft31at5l28].[sum:test:qk])</rows>
+        <cols>[federated.08ua7fi1tpyzh4185rft31at5l28].[sum:F1:qk]</cols>
+        <annotations>
+          <annotation class='point' id='0' mark-position='1' pullback='0' text-width='370'>
+            <formatted-text>
+              <run bold='true'>The model does not often risk predicting results that are not a home win, but when he does he has a good percentage of accuracy.</run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='axis'>
+                <x-coord axis-value='231.03666484744335'>
+                  <node-reference>
+                    <axis>[federated.08ua7fi1tpyzh4185rft31at5l28].[sum:F1:qk]</axis>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='1.9820194496993109'>
+                  <node-reference>
+                    <axis>[federated.08ua7fi1tpyzh4185rft31at5l28].[sum:pred:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </point>
+            <body x='75' y='97' />
+          </annotation>
+        </annotations>
+      </table>
+      <simple-id uuid='{7E3ADA2D-575C-4FA7-A070-7D67601AC6BA}' />
+    </worksheet>
+    <worksheet name='Prediction &amp; test all '>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (LogisticRegression_prediction)' name='federated.08ua7fi1tpyzh4185rft31at5l28' />
+          </datasources>
+          <datasource-dependencies datasource='federated.08ua7fi1tpyzh4185rft31at5l28'>
+            <column datatype='integer' name='[F1]' role='measure' type='quantitative' />
+            <column caption='Pred' datatype='integer' name='[pred]' role='measure' type='quantitative' />
+            <column caption='Success' datatype='integer' name='[success]' role='measure' type='quantitative' />
+            <column-instance column='[F1]' derivation='Sum' name='[sum:F1:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[pred]' derivation='Sum' name='[sum:pred:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[success]' derivation='Sum' name='[sum:success:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[test]' derivation='Sum' name='[sum:test:qk]' pivot='key' type='quantitative' />
+            <column caption='Test' datatype='integer' name='[test]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='false' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.08ua7fi1tpyzh4185rft31at5l28].[sum:F1:qk]' scope='cols' value='true' />
+            <format attr='title' class='0' field='[federated.08ua7fi1tpyzh4185rft31at5l28].[sum:test:qk]' scope='rows' value='Final result (Test set)' />
+            <format attr='title' class='0' field='[federated.08ua7fi1tpyzh4185rft31at5l28].[sum:F1:qk]' scope='cols' value='Index' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.08ua7fi1tpyzh4185rft31at5l28].[sum:success:qk]' num-steps='2' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-diverging'>
+                <color>#eb3312</color>
+                <color>#e94325</color>
+                <color>#e75338</color>
+                <color>#e6634b</color>
+                <color>#e4725e</color>
+                <color>#e28170</color>
+                <color>#e19182</color>
+                <color>#df9f94</color>
+                <color>#ddaea6</color>
+                <color>#dcbcb7</color>
+                <color>#dacbc8</color>
+                <color>#d9d9d9</color>
+                <color>#cfdcc8</color>
+                <color>#c4dfb7</color>
+                <color>#bae3a5</color>
+                <color>#aee692</color>
+                <color>#a3ea7f</color>
+                <color>#97ed6c</color>
+                <color>#8af157</color>
+                <color>#7ef442</color>
+                <color>#70f82d</color>
+                <color>#63fb16</color>
+                <color>#55ff00</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.08ua7fi1tpyzh4185rft31at5l28].[sum:success:qk]' />
+              <lod column='[federated.08ua7fi1tpyzh4185rft31at5l28].[sum:F1:qk]' />
+            </encodings>
+            <dropline drop-when='selected' haslabel='false' x-axis='true' y-axis='true' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='shape' value=':filled/circle' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.08ua7fi1tpyzh4185rft31at5l28].[sum:test:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.08ua7fi1tpyzh4185rft31at5l28].[sum:success:qk]' />
+              <lod column='[federated.08ua7fi1tpyzh4185rft31at5l28].[sum:F1:qk]' />
+            </encodings>
+            <dropline drop-when='selected' haslabel='false' x-axis='true' y-axis='true' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='shape' value=':filled/circle' />
+                <format attr='size' value='1' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.08ua7fi1tpyzh4185rft31at5l28].[sum:pred:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.08ua7fi1tpyzh4185rft31at5l28].[sum:success:qk]' />
+              <lod column='[federated.08ua7fi1tpyzh4185rft31at5l28].[sum:F1:qk]' />
+            </encodings>
+            <dropline drop-when='selected' haslabel='false' x-axis='true' y-axis='true' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='shape' value=':filled/circle' />
+                <format attr='size' value='1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.08ua7fi1tpyzh4185rft31at5l28].[sum:pred:qk] + [federated.08ua7fi1tpyzh4185rft31at5l28].[sum:test:qk])</rows>
+        <cols>[federated.08ua7fi1tpyzh4185rft31at5l28].[sum:F1:qk]</cols>
+      </table>
+      <simple-id uuid='{33180488-5F16-4BE8-B1A4-C8DDF5151200}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Dashboard 2'>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98142' id='7' param='horz' type-v2='layout-flow' w='99034' x='483' y='929'>
+            <zone h='98142' id='5' type-v2='layout-basic' w='99034' x='483' y='929'>
+              <zone h='98142' id='3' name='P &amp; T range1' w='99034' x='483' y='929'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='10221' id='8' name='P &amp; T range1' pane-specification-id='2' param='[federated.08ua7fi1tpyzh4185rft31at5l28].[sum:success:qk]' type-v2='color' w='15691' x='79722' y='929' />
+        <zone forceUpdate='true' h='15099' id='9' type-v2='text' w='24683' x='71877' y='13937'>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontsize='12'>Representing a sample of the whole index to visualize better.</run>
+          </formatted-text>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='13' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98142' id='12' param='vert' type-v2='layout-flow' w='99034' x='483' y='929'>
+                <zone fixed-size='280' h='98142' id='3' is-fixed='true' name='P &amp; T range1' w='99034' x='483' y='929'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='10221' id='8' name='P &amp; T range1' pane-specification-id='2' param='[federated.08ua7fi1tpyzh4185rft31at5l28].[sum:success:qk]' type-v2='color' w='15691' x='79722' y='929'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='15099' id='9' type-v2='text' w='24683' x='71877' y='13937'>
+                  <formatted-text>
+                    <run bold='true' fontalignment='1' fontsize='12'>Representing a sample of the whole index to visualize better.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{2FD9B1D6-5ACB-4188-BF6B-36460FC5E4E6}' />
+    </dashboard>
+    <dashboard name='Dashboard 3'>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98466' id='7' param='horz' type-v2='layout-flow' w='99166' x='417' y='767'>
+            <zone h='98466' id='5' type-v2='layout-basic' w='99166' x='417' y='767'>
+              <zone h='98466' id='3' name='P &amp; T range2' w='99166' x='417' y='767'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='6852' id='8' name='P &amp; T range2' pane-specification-id='2' param='[federated.08ua7fi1tpyzh4185rft31at5l28].[sum:success:qk]' type-v2='color' w='18407' x='79964' y='697' />
+        <zone forceUpdate='true' h='6504' id='9' type-v2='text' w='33313' x='5250' y='8479'>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontsize='12'>Representing another sample of the whole index to to contrast what has been seen in first sample.</run>
+          </formatted-text>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='13' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98142' id='12' param='vert' type-v2='layout-flow' w='99034' x='483' y='929'>
+                <zone fixed-size='280' h='98142' id='3' is-fixed='true' name='P &amp; T range2' w='99034' x='483' y='929'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='6852' id='8' name='P &amp; T range2' pane-specification-id='2' param='[federated.08ua7fi1tpyzh4185rft31at5l28].[sum:success:qk]' type-v2='color' w='18407' x='79964' y='697'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='6504' id='9' type-v2='text' w='33313' x='5250' y='8479'>
+                  <formatted-text>
+                    <run bold='true' fontalignment='1' fontsize='12'>Representing another sample of the whole index to to contrast what has been seen in first sample.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{D19E8246-5A61-4814-9219-2BA5BC2474A7}' />
+    </dashboard>
+    <dashboard name='Dashboard 4'>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone forceUpdate='true' h='98466' id='3' type-v2='text' w='99166' x='417' y='767'>
+            <formatted-text>
+              <run bold='true' fontalignment='1' fontsize='36'>Logistic Regression Results</run>
+              <run fontalignment='1'>Æ&#10;&#10;&#10;&#10;&#10;&#10;&#10;</run>
+              <run fontalignment='1' fontsize='20'>Evaluation of success by predictions done &amp; by test results</run>
+              <run fontalignment='1'>Æ&#10;&#10;&#10;</run>
+              <run fontalignment='1' fontsize='14'>0: Local Win</run>
+              <run fontalignment='1'>Æ&#10;</run>
+              <run fontalignment='1' fontsize='14'>1: Draw</run>
+              <run fontalignment='1'>Æ&#10;</run>
+              <run fontalignment='1' fontsize='14'>2: Visitor win </run>
+              <run fontalignment='1'>Æ&#10;&#10;&#10;&#10;&#10;</run>
+            </formatted-text>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='8' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98142' id='7' param='vert' type-v2='layout-flow' w='99034' x='483' y='929'>
+                <zone forceUpdate='true' h='98142' id='3' type-v2='text' w='99034' x='483' y='929'>
+                  <formatted-text>
+                    <run bold='true' fontalignment='1' fontsize='36'>Logistic Regression Results</run>
+                    <run fontalignment='1'>Æ&#10;&#10;&#10;&#10;&#10;&#10;&#10;</run>
+                    <run fontalignment='1' fontsize='20'>Evaluation of success by predictions done &amp; by test results</run>
+                    <run fontalignment='1'>Æ&#10;&#10;&#10;</run>
+                    <run fontalignment='1' fontsize='14'>0: Local Win</run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run fontalignment='1' fontsize='14'>1: Draw</run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run fontalignment='1' fontsize='14'>2: Visitor win </run>
+                    <run fontalignment='1'>Æ&#10;&#10;&#10;&#10;&#10;</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{DAEECF75-6513-4CDD-B65B-318EAFF53D0A}' />
+    </dashboard>
+    <dashboard name='Dashboard 5'>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98142' id='7' param='horz' type-v2='layout-flow' w='99034' x='483' y='929'>
+            <zone h='98142' id='5' type-v2='layout-basic' w='99034' x='483' y='929'>
+              <zone h='98142' id='3' name='Prediction &amp; test all ' w='99034' x='483' y='929'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone forceUpdate='true' h='8362' id='9' type-v2='text' w='33313' x='5552' y='40302'>
+          <formatted-text>
+            <run fontalignment='1' fontsize='10'>In the graph above each point represents the prediction of a match (0, 1 or 2) and is coloured according to whether the prediction was correct or not.</run>
+          </formatted-text>
+        </zone>
+        <zone forceUpdate='true' h='5575' id='10' type-v2='text' w='33313' x='50332' y='50755'>
+          <formatted-text>
+            <run fontalignment='1' fontsize='10'>In the graph below you can also see the results of the prediction, but instead of the prediction, it is based on the final result of the match.</run>
+          </formatted-text>
+        </zone>
+        <zone h='10221' id='8' name='Prediction &amp; test all ' pane-specification-id='2' param='[federated.08ua7fi1tpyzh4185rft31at5l28].[sum:success:qk]' type-v2='color' w='14182' x='80929' y='813' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='14' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98142' id='13' param='vert' type-v2='layout-flow' w='99034' x='483' y='929'>
+                <zone fixed-size='280' h='98142' id='3' is-fixed='true' name='Prediction &amp; test all ' w='89378' x='483' y='929'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='8478' id='8' name='Prediction &amp; test all ' pane-specification-id='2' param='[federated.08ua7fi1tpyzh4185rft31at5l28].[sum:success:qk]' type-v2='color' w='9656' x='89861' y='929'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='8362' id='9' type-v2='text' w='33313' x='5552' y='40302'>
+                  <formatted-text>
+                    <run fontalignment='1' fontsize='10'>In the graph above each point represents the prediction of a match (0, 1 or 2) and is coloured according to whether the prediction was correct or not.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='5575' id='10' type-v2='text' w='33313' x='50332' y='50755'>
+                  <formatted-text>
+                    <run fontalignment='1' fontsize='10'>In the graph below you can also see the results of the prediction, but instead of the prediction, it is based on the final result of the match.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{F8323DCE-99D5-4D17-912E-39105CF1CB7A}' />
+    </dashboard>
+    <dashboard name='Story 2' type='storyboard'>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98142' id='1' param='vert' removable='false' type-v2='layout-flow' w='99034' x='483' y='929'>
+            <zone h='4878' id='3' type-v2='title' w='99034' x='483' y='929' />
+            <zone h='11731' id='4' is-fixed='true' paired-zone-id='5' removable='false' type-v2='flipboard-nav' w='99034' x='483' y='5807' />
+            <zone h='81533' id='5' paired-zone-id='4' removable='false' type-v2='flipboard' w='99034' x='483' y='17538'>
+              <flipboard active-id='3' nav-type='caption' show-nav-arrows='true'>
+                <story-points>
+                  <story-point captured-sheet='Dashboard 4' id='2' />
+                  <story-point captured-sheet='Dashboard 5' id='1' />
+                  <story-point captured-sheet='Dashboard 2' id='3' />
+                  <story-point captured-sheet='Dashboard 3' id='4' />
+                </story-points>
+              </flipboard>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <simple-id uuid='{AB85DB45-4059-4866-9BF8-6F60B7D10908}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='37'>
+    <window class='worksheet' name='Prediction &amp; test all '>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='2' param='[federated.08ua7fi1tpyzh4185rft31at5l28].[sum:success:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-width' />
+      </viewpoint>
+      <simple-id uuid='{5282FE13-52F2-4AD0-92DE-909FD430A370}' />
+    </window>
+    <window class='worksheet' name='P &amp; T range1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='2' param='[federated.08ua7fi1tpyzh4185rft31at5l28].[sum:success:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-width' />
+      </viewpoint>
+      <simple-id uuid='{009D5C96-1970-4099-AFE7-BF5F9E7715E3}' />
+    </window>
+    <window class='worksheet' name='P &amp; T range2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='2' param='[federated.08ua7fi1tpyzh4185rft31at5l28].[sum:success:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-width' />
+      </viewpoint>
+      <simple-id uuid='{30103FAE-3ED8-4661-B41B-C5B65B997BBD}' />
+    </window>
+    <window class='dashboard' name='Dashboard 4'>
+      <viewpoints />
+      <active id='3' />
+      <simple-id uuid='{4D5239E9-78BB-45DE-9247-51C0D6476268}' />
+    </window>
+    <window class='dashboard' name='Dashboard 5'>
+      <viewpoints>
+        <viewpoint name='Prediction &amp; test all '>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='8' />
+      <simple-id uuid='{C4850155-D936-41A8-B38D-29772FE2A16F}' />
+    </window>
+    <window class='dashboard' name='Dashboard 2'>
+      <viewpoints>
+        <viewpoint name='P &amp; T range1'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{3BCCE387-9397-4486-B29C-332E0F34855D}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 3'>
+      <viewpoints>
+        <viewpoint name='P &amp; T range2'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='3' />
+      <simple-id uuid='{09E02C6D-2D29-4A63-82A5-0211E4D70000}' />
+    </window>
+    <window class='dashboard' name='Story 2'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{CA1F2F2B-5F0A-4DA9-9A23-5A9E36AEBA39}' />
+    </window>
+  </windows>
+</workbook>
